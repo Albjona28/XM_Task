@@ -1,0 +1,25 @@
+{
+  "name": "xm_task",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/albjona_94/xm_task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/albjona_94/xm_task/issues"
+  },
+  "homepage": "https://bitbucket.org/albjona_94/xm_task#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1",
+    "swiper": "^9.0.5",
+    "validate.js": "^0.13.1"
+  },
+  "devDependencies": {}
+}

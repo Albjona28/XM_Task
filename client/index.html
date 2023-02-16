@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>XM Trading</title>
+        <link rel="stylesheet" href="style.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="./images/logo-xm.png" alt="XM">
+            </div>
+            <div class="nav-menu-desktop">
+                <ul>
+                    <li><a href="">XM Homepage</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <section class="landing-page">
+            <div class="bg-image">
+                <img src="./images/background-hp-desktop.png" alt="XM">
+            </div>
+            <div class="main-info-landing">
+                <h3>trade with</h3>
+                <h1>Zero Swaps on All XM Ultra Low Accounts for more than 25
+                    instruments!</h1>
+                <p>Enjoy spreads <b>as low as 0.6 pips</b> and <b>leverage up to
+                        1000:1</b> on instruments like <b>EURUSD, USDJPY,
+                        EURJPY, GBPUSD,</b> and <b>Gold</b>.</p>
+                <button type="button">open account</button>
+                <h4>New to trading? Try a <a href="#">Demo account</a>.</h4>
+                <h5>Terms and Conditions apply <span class="text-danger">*</span>.
+                    To read the full T&Cs, <a href="#" class="text-danger">click
+                        here</a>.</h5>
+            </div>
+        </section>
+
+        <section class="cryptos-flex row" id="crypto-data">
+        </section>
+
+        <section class="why-us">
+            <h1>Why <b>Trade</b> with XM?</h1>
+            <span class="line"></span>
+            <p>We have been providing traders around the world with the same <b>premium experience</b> for over a decade. As an <b>industry-leader</b>, we know what the modern trader needs to be <b>successful</b> in the markets.</p>
+            <div class="xm-benefits-grid">
+                <div class="card-benefit benefit-1">
+                    <div class="card-benefit-content">
+                        <h3>Superior Trade Execution</h3>
+                        <div><span class="line"></span></div>
+                        <p>99% of trades are executed in less than a second, with no requotes or rejections.</p>
+                    </div>
+                    <div class="card-benefit-icon">
+                        <img src="./images/fast-execusion-icon.png" alt="">
+                    </div>
+                </div>
+                <div class="card-benefit benefit-2">
+                    <div class="card-benefit-content">
+                        <h3>Superior Trade Execution</h3>
+                        <div><span class="line"></span></div>
+                        <p>99% of trades are executed in less than a second, with no requotes or rejections.</p>
+                    </div>
+                    <div class="card-benefit-icon">
+                        <img src="./images/competitive-pricing-icon.png" alt="">
+                    </div>
+                </div>
+                <div class="card-benefit benefit-3">
+                    <div class="card-benefit-content">
+                        <h3>Superior Trade Execution</h3>
+                        <div><span class="line"></span></div>
+                        <p>99% of trades are executed in less than a second, with no requotes or rejections.</p>
+                    </div>
+                    <div class="card-benefit-icon">
+                        <img src="./images/tech-icon.png" alt="">
+                    </div>
+                </div>
+                <div class="card-benefit benefit-4">
+                    <div class="card-benefit-content">
+                        <h3>Superior Trade Execution</h3>
+                        <div><span class="line"></span></div>
+                        <p>99% of trades are executed in less than a second, with no requotes or rejections.</p>
+                    </div>
+                    <div class="card-benefit-icon">
+                        <img src="./images/dollar-icon.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="register">
+            <h1>- Register Here -</h1>
+            <p>Join us to celebrate our biggest night of the year.</p>
+            <div class="reg-details">
+                <div class="reg-info">
+                    <div class="reg-icon">
+                        <img src="./images/date.png" alt="">
+                    </div>
+                    <p>12 NOVEMBER 2022</p>
+                </div>
+                <div class="vl"></div>
+                <div class="reg-info">
+                    <div class="reg-icon">
+                        <img src="./images/time.png" alt="">
+                    </div>
+                    <p>16:00 – 23:00</p>
+                </div>
+                <div class="vl"></div>
+                <div class="reg-info">
+                    <div class="reg-icon">
+                        <img src="./images/location.png" alt="">
+                    </div>
+                    <p>Centara Grand & Bangkok<br>Convention Centre, Bangkok</p>
+                </div>
+            </div>
+            <form class="container col-md-8 account-form">
+                <div class="row account-form-row">
+                    <div class="form-group col">
+                      <label for="email">Email:</label>
+                      <input type="email" class="form-control" id="inputEmail" placeholder="Enter email" required>
+                    </div>
+                    <div class="form-group col">
+                      <label for="password">Password:</label>
+                      <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+                    </div>
+                </div>
+                <p class="register-here">
+                    Don’t have an account? <a href="#" class="text-danger">Create one here</a> and register for the event
+                </p>
+                <p class="terms">Terms and Conditions apply<span class="text-danger">*</span>. To read the full T&Cs, click <a href="#" class="text-danger">here</a>.</p>
+                <button type="submit">Register Now</button>
+            </form>
+        </section>
+
+        <section class="event-gallery">
+            <h1>Event Gallery</h1>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./images/slider-img.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                    <img src="./images/slider-img.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/slider-img.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/slider-img.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/slider-img.jpg" alt="">
+                    </div>
+                </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+        </section>
+
+        <section class="features">
+            <div class="slogan">
+                <div class="red-line"><span></span></div>
+                <div class="mob-slogan">
+                    <h1>Big<span class="red-dot">.</span></h1>
+                    <h1>Fair<span class="red-dot">.</span></h1>
+                    <h1>Human<span class="red-dot">.</span></h1>
+                </div>
+                <div><p>Learn why <b>over 5 million clients choose XM</b> as their trusted online broker.</p></div>
+            </div>
+            <div class="main-features">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="./images/Vector.png" alt="">
+                    </div>
+                    <h5>Authorised and Regulated</h5>
+                    <p>At XM, we adhere to all regulatory standards and are fully authorised and regulated by FSC.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="./images/vector-1.png" alt="">
+                    </div>
+                    <h5>Committed and Fair</h5>
+                    <p>We operate with complete transparency and adhere to the highest professional and ethical standards.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="./images/vector-3.png" alt="">
+                    </div>
+                    <h5>Multi-Award-Winning</h5>
+                    <p>Over the years we have received over 40 awards for the quality of our products and services.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="./images/vector-4.png" alt="">
+                    </div>
+                    <h5>24/7 Support</h5>
+                    <p>Our support agents are on hand 24/7 to answer your questions or assist you with any issues.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="top-footer">
+                <div class="partners">
+                    <img src="./images/partner-1.png" alt="">
+                    <img src="./images/partner-2.png" alt="">
+                    <img src="./images/partner-3.png" alt="">
+                    <img src="./images/partner-4.png" alt="">
+                </div>
+                <div class="social-media">
+                    <p>Follow us on</p>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+            <hr>
+            <div class="bottom-footer">
+                <div class="terms-conditions">
+                    <ul>
+                        <li>Privacy Policy</li>
+                        <li>Cookie Policy</li>
+                        <li>Terms and Conditions</li>
+                    </ul>
+                </div>
+                <div class="trading-logo">
+                    <img src="./images/trading-logo.png" alt="">
+                </div>
+            </div>
+        </footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/767fb1cb1b.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+    </body>
+</html>

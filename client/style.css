@@ -1,0 +1,783 @@
+body {
+    box-sizing: border-box;
+    background: #201D27 !important;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 2%;
+}
+
+.nav-menu-desktop ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-menu-desktop li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.nav-menu-desktop a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.bg-image {
+    background-image: linear-gradient(180deg, rgba(32, 46, 71, 0.65) 36.53%, rgba(32, 46, 71, 0.6175) 57.69%, rgba(32, 46, 71, 0.585) 78.84%, rgba(32, 46, 71, 0) 100%);
+    mix-blend-mode: overlay;
+    position: absolute;
+}
+
+.main-info-landing {
+    width: 60%;
+    margin: auto;
+    padding: 5% 0;
+    position: relative;
+    text-align: center;
+}
+
+.bg-image img {
+    width: 100%;
+    height: auto;
+}
+
+.main-info-landing h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #DDDDDD;
+}
+
+.main-info-landing h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 30px auto;
+}
+
+.main-info-landing p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.main-info-landing button, 
+.account-form button {
+    background-color: #29A643;
+    width: 345px;
+    height: 40px;
+    border: none;
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 30px auto;
+}
+
+.main-info-landing h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.main-info-landing h4 a {
+    color: #FFFFFF;
+}
+
+.main-info-landing h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cryptos-flex.row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1%;
+    width: 95%;
+    margin: auto;
+}
+
+.crypto-card {
+    background: rgba(140, 140, 140, 0.1);
+    mix-blend-mode: normal;
+    border: 0.953906px solid rgba(167, 167, 167, 0.2);
+    border-radius: 14.3086px;
+    color: #FFFFFF;
+    padding: 15px;
+}
+
+.card-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.card-heading img {
+    width: 30px;
+    height: auto;
+}
+
+.card-heading h5 {
+    margin: 0;
+}
+
+.card-heading span {
+    background: #FFF8D6;
+    border-radius: 3.81562px;
+    padding: 2px 5px;
+    color: #000000;
+}
+
+.card-content span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.3547px;
+    line-height: 120%;
+    text-shadow: 0px 0px 65.8195px #FFC255;
+}
+
+.value-up {
+    background: #B1FFC2;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    font-size: 13px;
+    color: #000000;
+    text-align: center;
+}
+
+.value-down {
+    background: #FFA3A6;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    font-size: 13px;
+    color: #000000;
+    text-align: center;
+}
+
+.why-us h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 5%;
+}
+
+.why-us p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 50%;
+    margin: auto;
+}
+
+.line {
+    display: block;
+    width: 70px;
+    border: 2px solid #29A643;
+    margin: 2% auto;
+}
+
+.xm-benefits-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+    margin-top: 5%;
+}
+
+.card-benefit {
+    background: #0B0819;
+    backdrop-filter: blur(45px);
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+}
+
+.card-benefit.benefit-1 {
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card-benefit-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-benefit .line {
+    float: left;
+}
+
+.card-benefit h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.card-benefit p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+
+.card-benefit-icon img {
+    max-width: 100px;
+    height: auto;
+}
+
+.card-benefit.benefit-1 {
+    grid-row: span 2;
+}
+
+.card-benefit.benefit-2 {
+    grid-column: span 2;
+}
+
+.card-benefit-icon img {
+    max-width: 70px;
+    height: auto;
+}
+
+.register h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 111.9%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 5%;
+}
+
+.register p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 3% auto;
+}
+
+.reg-details {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-around;
+    padding: 25px;
+    text-align: center;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.reg-icon {
+    margin-bottom: 20px;
+}
+
+.vl {
+    border-left: 1px solid #fff;
+    margin: -25px;
+}
+
+.account-data {
+    display: inline;
+}
+
+.account-form {
+    margin: 5% auto;
+    text-align: center;
+}
+
+.account-form label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.account-form input {
+    background: #FFFFFF;
+    border: 1px solid #29A643;
+    border-radius: 0;
+}
+
+p.register-here {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: normal;
+    margin-top: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+p.terms {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #EFEFEF;
+}
+
+.swiper {
+    max-width: 95%;
+    height: 300px;
+    margin: 2% auto 5% auto;
+}
+  
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    color: #fff;
+}
+
+.event-gallery h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    color: #252525;
+    margin-bottom: 20px;
+}
+
+section.event-gallery {
+    background-color: #F4F4F4;
+    padding: 3%;
+}
+
+.features {
+    background-color: #FFFFFF;
+    padding: 5%;
+}
+
+.red-line {
+    margin-bottom: 3%;
+}
+
+.red-line span{
+    border: 4px solid #D51820;
+    width: 70px;
+    position: absolute;
+}
+
+span.red-dot {
+    font-size: 6rem;
+    color: #D51820;
+}
+
+.slogan {
+    display: flex;
+    flex-direction: column;
+}
+
+.slogan h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: -0.02em;
+    color: #444444;
+}
+
+.main-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+section.features {
+    display: flex;
+    align-items: flex-start;
+}
+
+.feature-icon img {
+    max-width: 50px;
+    height: auto;
+}
+
+.slogan p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #444444;
+    width: 60%;
+    margin-top: 5%;
+}
+
+.feature-card h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 25px;
+    color: #444444;
+    margin: 15px auto;
+}
+
+.feature-card p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #444444;
+}
+
+.main-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+}
+
+footer.footer {
+    width: 95%;
+    margin: auto;
+    padding: 2%;
+}
+
+footer.footer hr {
+    opacity: 1;
+    border: 1px solid #444;
+}
+
+.partners img {
+    max-width: 120px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.social-media {
+    display: flex;
+}
+
+.social-media p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: #888888;
+    margin-right: 10px;
+}
+
+.social-media i {
+    font-size: 18px;
+    line-height: 20px;
+    color: #BDBDBD;
+    margin-right: 10px;
+}
+
+.top-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.terms-conditions ul li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #888888;
+    list-style: none;
+    display: inline;
+    padding: 0 10px;
+}
+
+.terms-conditions ul li:not(:last-child) {
+    border-right: 1px solid #888888;
+}
+
+.terms-conditions ul li:first-child {
+    padding-left: 0;
+}
+
+.terms-conditions ul {
+    padding-left: 0;
+}
+
+.bottom-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    header {
+        justify-content: center;
+        padding: 5%;
+    }
+
+    .nav-menu-desktop ul {
+        display: none;
+    }
+    .main-info-landing {
+        width: 90%;
+    }
+
+    .main-info-landing h1 {
+        font-size: 28px;
+    }
+
+    .cryptos-flex.row {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2%;
+        width: 80%;
+        margin-bottom: 25%;
+    }
+
+    .why-us p {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .xm-benefits-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .card-benefit.benefit-1 {
+        flex-direction: row;
+    }
+
+    .card-benefit-icon img {
+        max-width: 40px;
+    }
+
+    .vl {
+        display: none;
+    }
+    
+    .reg-details {
+        flex-direction: column;
+        border: 0;
+        gap: 20px;
+        width: 80%;
+    }
+
+    .register p {
+        order: 1;
+        margin-top: 0;
+        width: 70%;
+    }
+
+    .reg-info:not(:last-child) {
+        border-bottom: 1px solid #fff;
+        padding-bottom: 20px;
+    }
+    
+    .account-form-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .account-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .swiper {
+        height: 200px;
+    }
+
+    section.features {
+        flex-direction: column;
+    }
+
+    .red-line {
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+    }
+
+    .mob-slogan {
+        display: flex;
+        gap: 10px;
+        margin: auto;
+    }
+
+    .mob-slogan h1 {
+        font-size: 35px;
+    }
+
+    span.red-dot {
+        font-size: 3rem;
+    }
+
+    .slogan p {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .main-features {
+        grid-template-columns: 1fr;
+        gap: 3%;
+        text-align: center;
+        margin-bottom: 20%;
+    }
+
+    .top-footer, 
+    footer.footer hr {
+        display: none;
+    }
+
+    .bottom-footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 10% 0;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .cryptos-flex.row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5%;
+        width: 90%;
+        margin: auto;
+    }
+
+    .xm-benefits-grid {
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+
+    .card-benefit.benefit-1 {
+        flex-direction: row;
+    }
+
+    .card-benefit.benefit-2 {
+        grid-column: auto;
+    }
+
+    .reg-details {
+        width: 90%;
+    }
+
+    section.features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .red-line {
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+    }
+
+    .mob-slogan {
+        display: flex;
+        gap: 10px;
+        margin: auto;
+    }
+
+    .mob-slogan h1 {
+        font-size: 35px;
+    }
+
+    span.red-dot {
+        font-size: 3rem;
+    }
+
+    .slogan p {
+        text-align: center;
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .main-features {
+        margin: 5% auto;
+    }
+
+    .top-footer, 
+    footer.footer hr {
+        display: none;
+    }
+
+}
